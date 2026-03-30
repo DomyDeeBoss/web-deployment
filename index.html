@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominion Isoh | Portfolio</title>
+
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            opacity: 0.9;
+        }
+
+        /* Main container */
+        .container {
+            background: white;
+            margin: 20px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        /* Cards */
+        .card {
+            background: #f4f6f9;
+            padding: 30px;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            background: #4facfe;
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        /* Highlight To-Do */
+        .highlight {
+            background: #ff9800;
+            color: white;
+        }
+
+        .highlight:hover {
+            background: #e68900;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            color: white;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Dominion Isoh</h1>
+        <p>Web Development Portfolio</p>
+    </header>
+
+    <div class="container">
+        <h2>My Projects</h2>
+
+        <div class="grid">
+            <a href="Lab1/lab1.html" class="card">Lab 1</a>
+            <a href="Lab2/lab2.html" class="card">Lab 2</a>
+            <a href="Lab3/lab3.html" class="card">Lab 3</a>
+            <a href="Lab4/lab4.html" class="card">Lab 4</a>
+            <a href="Lab5/lab5.html" class="card">Lab 5</a>
+            <a href="Lab6/lab6.html" class="card">Lab 6</a>
+            <a href="Lab7/lab7.html" class="card">Lab 7</a>
+
+            <a href="To-do/todo.html" class="card highlight">
+                To-Do App 🚀
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Dominion Isoh | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

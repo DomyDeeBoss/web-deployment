@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+</head>
+<body>
+    <button id="btn">Click Me</button>
+    <input type="text" id="input" placeholder="Type here">
+
+    <h1 id="timer-text">Waiting for 5 seconds...</h1>
+    <script>
+          // --- timer activity---
+          const heading =
+          document.getElementById("timer-text");
+           setTimeout(Function,
+            delayInMilliseconds)
+           setTimeout(Function( )); {  
+            heading.textContent="time is up! the text has changed.";
+            heading.style.color = "blue";
+            console.log("timer finished : text updated.");
+             } (5000);
+        // Button Click Event
+        document.getElementById("btn").addEventListener("click", function() {
+            alert("Button clicked!");
+        });
+
+        // Keyboard Keyup Event
+        document.getElementById("input").addEventListener("keyup", function(event) {
+            console.log("Key pressed: " + event.key);
+        });
+
+    </script>
+</body>
+</html>
